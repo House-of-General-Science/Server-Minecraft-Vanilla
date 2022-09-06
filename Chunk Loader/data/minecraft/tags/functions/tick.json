@@ -2,6 +2,7 @@
     	"values": [
 		"loader:load",
 		"loader:spawn",
-		"loader:destroy"
+		"loader:destroy",
+		"loader:recipe_chunk_loader"
 	]
 }

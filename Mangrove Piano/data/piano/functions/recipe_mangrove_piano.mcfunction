@@ -1,3 +1,5 @@
+scoreboard objectives add recipe-mangrove-piano trigger
+scoreboard players enable @a recipe-mangrove-piano
 tellraw @a[scores={recipe-mangrove-piano=1..}] {"text":"[Mangrove Piano Recipe]","color":"gold","bold":"true","italic":"true"}
 tellraw @a[scores={recipe-mangrove-piano=1..}] {"text":"Functional piano.","color":"white"}
 tellraw @a[scores={recipe-mangrove-piano=1..}] {"text":"Piano:","color":"white"}

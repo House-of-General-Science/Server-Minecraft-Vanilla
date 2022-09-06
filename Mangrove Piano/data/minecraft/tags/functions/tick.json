@@ -9,6 +9,7 @@
 		"piano:play_bit",
 		"piano:play_chime",
 		"piano:play_harp",
-		"piano:play_iron_xylophone"
+		"piano:play_iron_xylophone",
+		"piano:recipe_mangrove_piano"
 	]
 }

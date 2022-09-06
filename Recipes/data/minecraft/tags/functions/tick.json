@@ -1,7 +1,0 @@
-{
-    	"values": [
-		"recipes:initialize",
-		"recipes:recipe-chunk-loader",
-		"recipes:recipe-mangrove-piano"
-	]
-}

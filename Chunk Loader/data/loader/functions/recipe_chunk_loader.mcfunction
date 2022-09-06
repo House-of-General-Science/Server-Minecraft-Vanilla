@@ -1,3 +1,5 @@
+scoreboard objectives add recipe-chunk-loader trigger
+scoreboard players enable @a recipe-chunk-loader
 tellraw @a[scores={recipe-chunk-loader=1..}] {"text":"[Chunk Loader Recipe]","color":"light_purple","bold":"true","italic":"true"}
 tellraw @a[scores={recipe-chunk-loader=1..}] {"text":"Keeps a chunk loaded.","color":"white"}
 tellraw @a[scores={recipe-chunk-loader=1..}] {"text":"Recipe:","color":"white"}
