@@ -14,4 +14,6 @@ tellraw @a[scores={recipe-mangrove-piano=1..}] {"text":"Piano Wall:","color":"wh
 tellraw @a[scores={recipe-mangrove-piano=1..}] [{"text":"  Mangrove Slab","color":"gold"},{"text":", ","color":"white"},{"text":"Air","color":"white"},{"text":", ","color":"white"},{"text":"Air","color":"white"}]
 tellraw @a[scores={recipe-mangrove-piano=1..}] [{"text":"  Stripped Mangrove Wood","color":"gold"},{"text":", ","color":"white"},{"text":"Air","color":"white"},{"text":", ","color":"white"},{"text":"Air","color":"white"}]
 tellraw @a[scores={recipe-mangrove-piano=1..}] [{"text":"  Stripped Mangrove Wood","color":"gold"},{"text":", ","color":"white"},{"text":"Air","color":"white"},{"text":", ","color":"white"},{"text":"Air","color":"white"}]
+tellraw @a[scores={recipe-mangrove-piano=1..}] {"text":"DO NOT CLICK ON KEYS WITH ITEMS, THEY WILL BE DELETED.","color":"red"}
+tellraw @a[scores={recipe-mangrove-piano=1..}] {"text":"SPAWNING MAY ALSO DELETE NEARBY BLOCKS.","color":"red"}
 scoreboard players set @a recipe-mangrove-piano 0
