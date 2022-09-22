@@ -32,7 +32,7 @@ jobs:
           # will put all file under this path
           local_path: ./* # default is ./*
           # files will copy to under remote_path
-          remote_path: /home/servers/minecraft-1.19.0/world/datapacks
+          remote_path: /home/servers/minecraft-vanilla-1.19.0/world/datapacks
           
           # sftp args
           args: '-o ConnectTimeout=5'
